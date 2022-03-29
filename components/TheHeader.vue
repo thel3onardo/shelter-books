@@ -1,5 +1,5 @@
 <template>
-<div class="flex flex-col">
+<div class="flex flex-col font-montserrat">
     <h1 class="text-5xl text-center text-white font-bold mb-8">shelterbooks</h1>
     <ul class="flex">
       <li v-for="item in navItems" :key="item.text" class="mx-8">
