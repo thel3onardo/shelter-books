@@ -1,3 +1,10 @@
 <template>
-    <h1>my name is leonardo</h1>
+    <div class="h-screen w-full bg-gray-900 flex justify-center items-center">
+        <TheHeader />
+    </div>
 </template>
+<script>
+export default {
+    name: 'Home'
+}
+</script>
